@@ -1,0 +1,25 @@
+{
+  "name": "EksDeePanel",
+  "version": "0.0.0",
+  "description": "A Backend for EksDeeBot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fuerbringer/EksDeePanel.git"
+  },
+  "keywords": [
+    "backend",
+    "express",
+    "telegram",
+    "bot",
+    "EksDeeBot",
+  ],
+  "author": "Severin Fürbringer",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/fuerbringer/EksDeePanel/issues"
+  }
+}
