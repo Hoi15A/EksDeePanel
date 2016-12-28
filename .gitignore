@@ -38,3 +38,6 @@ jspm_packages
 
 # Authentication files
 auth.json
+
+# Swap files
+*.swp

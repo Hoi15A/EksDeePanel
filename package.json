@@ -13,7 +13,9 @@
     "express": "~4.14.0",
     "jade": "~1.11.0",
     "morgan": "~1.7.0",
-    "serve-favicon": "~2.3.0"
+    "serve-favicon": "~2.3.0",
+	"jsonfile": "^2.4.0",
+	"mysql2": "^1.1.1"
   },
   "repository": {
     "type": "git",
