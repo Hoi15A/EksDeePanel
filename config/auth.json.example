@@ -1,0 +1,6 @@
+{
+	"db_host" : "127.0.0.1",
+	"db_name" : "eksdee_bot",
+	"db_user" : "root",
+	"db_pass" : ""
+}
