@@ -1,5 +1,5 @@
 # EksDeePanel
-A Backend for the EksDeeBot [EksDeeBot](https://github.com/Hoi15A/EksDeeBot)
+A Backend for the [EksDeeBot](https://github.com/Hoi15A/EksDeeBot)
 
 ## What does this do?
 The Backend shows you alot of interesting infos about the usage and status about the [EksDeeBot](https://github.com/Hoi15A/EksDeeBot)
@@ -25,3 +25,10 @@ After installing the dependencies/requirements just follow these steps:
 
 `npm start > panel.log`
 If you want to examine the status of the server, simply `cat` the `panel.log` file.
+
+## License
+### Copying / Redistribution / Modifying
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
