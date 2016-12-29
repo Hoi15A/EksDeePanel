@@ -9,15 +9,24 @@ html
 				div(class='top-panel')
 					h1= title
 		div(class='row')
-			div(class='col-xs-3 col-sm-2 navigation')
+			div(class='col-xs-3 col-sm-2 navigation well well-lg')
 				h4
 					a(href='/' class='list-group-item-heading') Statistics
-				ul(class='list-group')
-					li(class='list-group-item')
+				ul(class='nav nav-tabs nav-stacked')
+					li
 						a(href='/#graph') Graph
-					li(class='list-group-item')
+					li
 						a(href='/#detailed-statistics') Detailed statistics
-					li(class='list-group-item')
+					li
 						a(href='/#command-parameters') Command parameters
+				h4
+					a(href='/settings' class='list-group-item-heading') Settings
+				ul(class='nav nav-tabs nav-stacked')
+					li
+						a(href='/settings#updating') Updating
+					li
+						a(href='/settings#restarting') Restarting
+					li
+						a(href='/settings#logs') Logs
 			div(class='col-xs-9 col-sm-10')
 				block content
