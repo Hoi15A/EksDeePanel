@@ -6,7 +6,8 @@ var StatisticsController = function() {
 	 * Get usage graph
 	 */
 	this.getGraph = function() {
-		return new StatisticsGraphModel().getData();
+		var data = new StatisticsGraphModel().getData();
+		return data;
 	}
 }
 

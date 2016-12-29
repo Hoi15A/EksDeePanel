@@ -1,6 +1,6 @@
 {
 	"host" : "127.0.0.1",
-	"name" : "eksdee_bot",
+	"database" : "eksdee_bot",
 	"user" : "root",
 	"password" : ""
 }
