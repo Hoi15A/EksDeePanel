@@ -6,7 +6,10 @@ var StatisticsController = require(approot + '/libs/controller/StatisticsControl
 /* GET Statistics page. */
 router.get('/', function(req, res, next) {
 	var sc = new StatisticsController;
-	res.render('index', { title: 'EksDeePanel', usage_graph: sc.getGraph() });
+
+	sc.getGraph(function(graph1) {
+		res.render('index', { title: 'EksDeePanel', usage_graph: graph1 });
+	});
 });
 
 module.exports = router;

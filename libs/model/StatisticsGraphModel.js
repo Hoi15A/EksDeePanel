@@ -2,20 +2,13 @@ var approot = require('app-root-path');
 var db = require(approot + '/libs/db');
 
 var StatisticsGraphModel = function() {
-	this.getData = function() {
-		gx = [];
-		gy = [];
-
+	this.getData = function(callback) {
 		db.connection.execute('SELECT COUNT(*) count, timestamp FROM log_request GROUP BY DAY(timestamp)', function(err, results, fields) {
-			console.log(results);
-			results.forEach(function(item) {
-				gx.push(item.count);
-				gy.push(item.timestamp);
-
-			});
+			if(err) {
+				console.log("SQL ERROR: " + err);
+			}
+			callback(results);
 		});
-
-		return [ { x: gx, y: gy, type: 'scatter' } ];
 	}
 }
 
